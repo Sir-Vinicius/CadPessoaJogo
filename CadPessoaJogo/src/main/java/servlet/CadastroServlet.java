@@ -12,6 +12,8 @@ import entidades.Pessoa;
 
 @WebServlet(urlPatterns = "/cadastrarServlet")
 public class CadastroServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+    
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		
@@ -41,4 +43,8 @@ public class CadastroServlet extends HttpServlet {
 		Writer.println("</body>");
 		Writer.println("</html>");
 	}
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        // Lógica para lidar com solicitações GET, se necessário
+    }
 }
