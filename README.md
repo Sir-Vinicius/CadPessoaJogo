@@ -3,6 +3,19 @@
 ## Descrição
 Este projeto Java é uma aplicação web simples que permite cadastrar informações de pessoas e jogar um jogo para encontrar o maior e o menor número entre cinco números fornecidos.
 
+**Atualização para o Desafio DIO:** Este projeto foi atualizado como parte do desafio de projeto "Explorando Padrões de Projetos na Prática com Java" da DIO (Digital Innovation One). As seguintes melhorias foram feitas:
+
+- Adição de funcionalidades para cumprir os requisitos do desafio.
+- Implementação de padrões de projeto relevantes para aprimorar a estrutura do código.
+- Melhorias na documentação e descrição do projeto.
+
+## Padrões de Projeto Utilizados
+Este projeto implementa os seguintes padrões de projeto para cumprir o desafio da DIO (Digital Innovation One):
+
+1. **Singleton Pattern**: Utilizado na classe `PessoaFacade` para garantir que apenas uma instância da classe seja criada e compartilhada em toda a aplicação.
+
+2. **Strategy Pattern**: Utilizado na escolha da estratégia no `JogoServlet` para encontrar o maior e o menor número entre os números digitados.
+
 ## Funcionalidades
 
 ### 1. Cadastro de Pessoa
@@ -41,7 +54,7 @@ Para executar o projeto localmente, siga estas etapas:
 1. Clone o repositório para o seu ambiente local.
 
    ```bash
-   git clone https://github.com/seu-usuario/CadPessoaJogo.git
+   git clone https://github.com/Sir-Vinicius/CadPessoaJogo.git
    
 2. Certifique-se de ter o Java e um servidor web configurado (como Apache Tomcat) instalado no seu sistema.
 
